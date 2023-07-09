@@ -1,0 +1,21 @@
+;;Baltazar Coyotl Miguel Angel
+;;Práctica número 1
+;;Funciones puras, de primer orden y de orden superior.
+;;Todas las opciones
+;;14 de octubre del 2021
+;;Grupo 3CM2
+;;Materia: Paradigmas de Programación 
+
+(define selem
+  (lambda(l)
+    (car(cdr l))))
+
+(define telem
+  (lambda(l)
+
+    (car(cdr(cdr l)))))
+    
+(print "Segundo Elemento")
+(selem '(A B C D E F H I J K))
+(print "Tercer Elemento")
+(telem '(1 2 3 4 5 6 7 8 9 10))
